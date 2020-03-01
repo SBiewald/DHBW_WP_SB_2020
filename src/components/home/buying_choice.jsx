@@ -56,8 +56,8 @@ const useStyles = makeStyles(theme => ({
           }}
         >
           <option value=""/>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
+          <option value= "yes" >Yes</option>
+          <option value= "no" >No</option>
         </Select>
       </FormControl>
             </div>

@@ -16,8 +16,6 @@ class App extends Component{
       <Nav_bar/>  
       </header>
       <BrowserRouter>
-      <body>
-      </body>
       </BrowserRouter>
     </div>
   );
