@@ -1,3 +1,44 @@
+import React, {Component} from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import InputLabel from '@material-ui/core/InputLabel';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+import NativeSelect from '@material-ui/core/NativeSelect';
+
+
+class Buying_choice extends Component{
+  state={
+    buy:false
+  }
+  render(){
+        return(
+          <div>
+      <FormControl variant="outlined">
+      <InputLabel>
+      </InputLabel>
+      <Select
+        native
+        onChange={handleChange => {this.setState({buy: handleChange.target.value})}}
+        autoWidth
+      >
+        <option value=""/>
+        <option value= {true} >Yes</option>
+        <option value= {false} >No</option>
+      </Select>
+      </FormControl>
+          </div>
+      );
+      }
+      }
+export default Buying_choice
+
+
+
+
+
+/*
+
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -32,11 +73,10 @@ const useStyles = makeStyles(theme => ({
       setLabelWidth(inputLabel.current.offsetWidth);
     }, []);
   
-    const handleChange = name => event => {
+    const handleChange = ()=>{
       setState({
-        ...state,
-        [name]: event.target.value,
-      });
+        buy: state.buy = "yes"
+      })
     };
 
         return(
@@ -48,7 +88,7 @@ const useStyles = makeStyles(theme => ({
         <Select
           native
           value={state.buy}
-          onChange={handleChange('buy')}
+          onChange={handleChange}
           labelWidth={labelWidth}
           inputProps={{
             name: 'buy',
@@ -63,3 +103,6 @@ const useStyles = makeStyles(theme => ({
             </div>
         );
 }
+
+
+*/
