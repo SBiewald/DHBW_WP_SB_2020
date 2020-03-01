@@ -1,0 +1,22 @@
+Es soll mit React eine Cocktail Web App gebaut werden. 
+Hierzu müssen drei views erstellt werden
+	- Zutateneingabe
+		Hier hat der Nutzer die Möglichkeit auszuwählen welche Zutaten er in seinem Cocktail haben will. Außerdem kann er auswählen, ob er die Zutaten direkt kaufen möchte und er muss über einen click alle zu ihme passenden Cocktails angezeigt bekommen
+	- Passende Rezepte
+		Falls der Nutzer die Zutaten kaufen möchte werden alle Cocktails angezeigt mit Matching Rate, wie gut sie zu der Selection passen. Falls der Nutzer keine Zutaten kaufen möchte werden nur exakt passende Cocktails angezeigt. Falls keine passen kommt eine Error Message.
+	- Rezepte
+		Eine Übersicht aller Cocktailrezepte mit Zubereitungsschritten
+
+Zwischen den drei Views muss der Nutzer navigieren können.
+
+Bei der Erstellung der Web App müssen folgende Dinge verwendet beziehungsweise eingehalten werden:
+		- Struktur 
+		- Material UI 
+		- Router
+		- useState
+		- State/setState
+		- Class Based /function Based components
+		- Hilfsmittel (props,…)
+		- Sinnvolle Benennung
+		- Codequalität/Kommentare
+		- Funktionalität

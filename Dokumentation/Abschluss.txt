@@ -1,0 +1,4 @@
+Die Views konnten nach den Requirements vollständig gefertigt werden, jedoch gab es leider Probleme mit der Funktionalität. Die Übertragung des gegebenen Inputs auf der Ingredient Selection Seite auf die Matching Recipes Seite funktioniert leider nicht. Auch die Matching Rate funktioniert aus dem gleichen Grund nicht.
+An den Paper Prototype wurde sich vollständig gehalten. Dieser wurde also nicht überarbeitet. 
+Das Klassendiagramm wurde nicht wie ursprünglich erstellt übernommen. Zum Zeitpunkt der Erstellung war noch kein ausreichendes Verständnis zu react vorhanden.
+Das neue Klassendiagramm ist aus der Ordnerstruktur im Ordner "components" ersichtlich.
